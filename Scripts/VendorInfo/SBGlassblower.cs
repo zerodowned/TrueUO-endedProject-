@@ -26,22 +26,22 @@ namespace Server.Mobiles
 
                 Add(new GenericBuyInfo(typeof(MortarPestle), 8, 10, 0xE9B, 0));
 
-                Add(new GenericBuyInfo(typeof(BlackPearl), 5, 20, 0xF7A, 0));
-                Add(new GenericBuyInfo(typeof(Bloodmoss), 5, 20, 0xF7B, 0));
-                Add(new GenericBuyInfo(typeof(Garlic), 3, 20, 0xF84, 0));
-                Add(new GenericBuyInfo(typeof(Ginseng), 3, 20, 0xF85, 0));
-                Add(new GenericBuyInfo(typeof(MandrakeRoot), 3, 20, 0xF86, 0));
-                Add(new GenericBuyInfo(typeof(Nightshade), 3, 20, 0xF88, 0));
-                Add(new GenericBuyInfo(typeof(SpidersSilk), 3, 20, 0xF8D, 0));
-                Add(new GenericBuyInfo(typeof(SulfurousAsh), 3, 20, 0xF8C, 0));
+                Add(new GenericBuyInfo(typeof(BlackPearl), 5, 10, 0xF7A, 0));
+                Add(new GenericBuyInfo(typeof(Bloodmoss), 5, 10, 0xF7B, 0));
+                Add(new GenericBuyInfo(typeof(Garlic), 3, 10, 0xF84, 0));
+                Add(new GenericBuyInfo(typeof(Ginseng), 3, 10, 0xF85, 0));
+                Add(new GenericBuyInfo(typeof(MandrakeRoot), 3, 10, 0xF86, 0));
+                Add(new GenericBuyInfo(typeof(Nightshade), 3, 10, 0xF88, 0));
+                Add(new GenericBuyInfo(typeof(SpidersSilk), 3, 10, 0xF8D, 0));
+                Add(new GenericBuyInfo(typeof(SulfurousAsh), 3, 10, 0xF8C, 0));
 
-                Add(new GenericBuyInfo(typeof(Bottle), 5, 100, 0xF0E, 0, true));
+                Add(new GenericBuyInfo(typeof(Bottle), 5, 10, 0xF0E, 0, true));
 
-                Add(new GenericBuyInfo(typeof(HeatingStand), 2, 100, 0x1849, 0));
+                Add(new GenericBuyInfo(typeof(HeatingStand), 2, 10, 0x1849, 0));
 
                 Add(new GenericBuyInfo("Crafting Glass With Glassblowing", typeof(GlassblowingBook), 10637, 30, 0xFF4, 0));
                 Add(new GenericBuyInfo("Finding Glass-Quality Sand", typeof(SandMiningBook), 10637, 30, 0xFF4, 0));
-                Add(new GenericBuyInfo("1044608", typeof(Blowpipe), 21, 100, 0xE8A, 0x3B9));
+                Add(new GenericBuyInfo("1044608", typeof(Blowpipe), 21, 10, 0xE8A, 0x3B9));
             }
         }
 

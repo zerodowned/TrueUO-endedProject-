@@ -18,29 +18,29 @@ namespace Server.Mobiles
             {
                 Add(new GenericBuyInfo(typeof(Spellbook), 18, 10, 0xEFA, 0));
                 Add(new GenericBuyInfo(typeof(ScribesPen), 8, 10, 0xFBF, 0));
-                Add(new GenericBuyInfo(typeof(BlankScroll), 5, 20, 0x0E34, 0));
+                Add(new GenericBuyInfo(typeof(BlankScroll), 5, 10, 0x0E34, 0));
 
                 Add(new GenericBuyInfo("1041072", typeof(MagicWizardsHat), 11, 10, 0x1718, Utility.RandomDyedHue()));
 
                 Add(new GenericBuyInfo(typeof(RecallRune), 15, 10, 0x1f14, 0));
 
-                Add(new GenericBuyInfo(typeof(RefreshPotion), 15, 20, 0xF0B, 0, true));
-                Add(new GenericBuyInfo(typeof(AgilityPotion), 15, 20, 0xF08, 0, true));
-                Add(new GenericBuyInfo(typeof(NightSightPotion), 15, 20, 0xF06, 0, true));
-                Add(new GenericBuyInfo(typeof(LesserHealPotion), 15, 20, 0xF0C, 0, true));
-                Add(new GenericBuyInfo(typeof(StrengthPotion), 15, 20, 0xF09, 0, true));
-                Add(new GenericBuyInfo(typeof(LesserCurePotion), 15, 20, 0xF07, 0, true));
+                Add(new GenericBuyInfo(typeof(RefreshPotion), 15, 10, 0xF0B, 0, true));
+                Add(new GenericBuyInfo(typeof(AgilityPotion), 15, 10, 0xF08, 0, true));
+                Add(new GenericBuyInfo(typeof(NightSightPotion), 15, 10, 0xF06, 0, true));
+                Add(new GenericBuyInfo(typeof(LesserHealPotion), 15, 10, 0xF0C, 0, true));
+                Add(new GenericBuyInfo(typeof(StrengthPotion), 15, 10, 0xF09, 0, true));
+                Add(new GenericBuyInfo(typeof(LesserCurePotion), 15, 10, 0xF07, 0, true));
 
-                Add(new GenericBuyInfo(typeof(BlackPearl), 5, 20, 0xF7A, 0));
-                Add(new GenericBuyInfo(typeof(Bloodmoss), 5, 20, 0xF7B, 0));
-                Add(new GenericBuyInfo(typeof(Garlic), 3, 20, 0xF84, 0));
-                Add(new GenericBuyInfo(typeof(Ginseng), 3, 20, 0xF85, 0));
-                Add(new GenericBuyInfo(typeof(MandrakeRoot), 3, 20, 0xF86, 0));
-                Add(new GenericBuyInfo(typeof(Nightshade), 3, 20, 0xF88, 0));
-                Add(new GenericBuyInfo(typeof(SpidersSilk), 3, 20, 0xF8D, 0));
-                Add(new GenericBuyInfo(typeof(SulfurousAsh), 3, 20, 0xF8C, 0));
+                Add(new GenericBuyInfo(typeof(BlackPearl), 5, 10, 0xF7A, 0));
+                Add(new GenericBuyInfo(typeof(Bloodmoss), 5, 10, 0xF7B, 0));
+                Add(new GenericBuyInfo(typeof(Garlic), 3, 10, 0xF84, 0));
+                Add(new GenericBuyInfo(typeof(Ginseng), 3, 10, 0xF85, 0));
+                Add(new GenericBuyInfo(typeof(MandrakeRoot), 3, 10, 0xF86, 0));
+                Add(new GenericBuyInfo(typeof(Nightshade), 3, 10, 0xF88, 0));
+                Add(new GenericBuyInfo(typeof(SpidersSilk), 3, 10, 0xF8D, 0));
+                Add(new GenericBuyInfo(typeof(SulfurousAsh), 3, 10, 0xF8C, 0));
 
-                Type[] types = Loot.MageryScrollTypes;
+                /* Type[] types = Loot.MageryScrollTypes;
 
                 for (int i = 0; i < types.Length && i < 8; ++i)
                 {
@@ -52,7 +52,7 @@ namespace Server.Mobiles
                         --itemID;
 
                     Add(new GenericBuyInfo(types[i], 12 + ((i / 8) * 10), 20, itemID, 0, true));
-                }
+                } */
             }
         }
 

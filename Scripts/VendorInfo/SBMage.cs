@@ -37,22 +37,22 @@ namespace Server.Mobiles
                 Add(new GenericBuyInfo(typeof(LesserCurePotion), 15, 10, 0xF07, 0, true));
                 Add(new GenericBuyInfo(typeof(LesserExplosionPotion), 21, 10, 0xF0D, 0, true));
 
-                Add(new GenericBuyInfo(typeof(BlackPearl), 5, 20, 0xF7A, 0));
-                Add(new GenericBuyInfo(typeof(Bloodmoss), 5, 20, 0xF7B, 0));
-                Add(new GenericBuyInfo(typeof(Garlic), 3, 20, 0xF84, 0));
-                Add(new GenericBuyInfo(typeof(Ginseng), 3, 20, 0xF85, 0));
-                Add(new GenericBuyInfo(typeof(MandrakeRoot), 3, 20, 0xF86, 0));
-                Add(new GenericBuyInfo(typeof(Nightshade), 3, 20, 0xF88, 0));
-                Add(new GenericBuyInfo(typeof(SpidersSilk), 3, 20, 0xF8D, 0));
-                Add(new GenericBuyInfo(typeof(SulfurousAsh), 3, 20, 0xF8C, 0));
+                Add(new GenericBuyInfo(typeof(BlackPearl), 5,   10, 0xF7A, 0));
+                Add(new GenericBuyInfo(typeof(Bloodmoss), 5,    10, 0xF7B, 0));
+                Add(new GenericBuyInfo(typeof(Garlic), 3,       10, 0xF84, 0));
+                Add(new GenericBuyInfo(typeof(Ginseng), 3,      10, 0xF85, 0));
+                Add(new GenericBuyInfo(typeof(MandrakeRoot), 3, 10, 0xF86, 0));
+                Add(new GenericBuyInfo(typeof(Nightshade), 3,   10, 0xF88, 0));
+                Add(new GenericBuyInfo(typeof(SpidersSilk), 3,  10, 0xF8D, 0));
+                Add(new GenericBuyInfo(typeof(SulfurousAsh), 3, 10, 0xF8C, 0));
 
-                Add(new GenericBuyInfo(typeof(BatWing), 3, 999, 0xF78, 0));
-                Add(new GenericBuyInfo(typeof(DaemonBlood), 6, 999, 0xF7D, 0));
-                Add(new GenericBuyInfo(typeof(PigIron), 5, 999, 0xF8A, 0));
-                Add(new GenericBuyInfo(typeof(NoxCrystal), 6, 999, 0xF8E, 0));
-                Add(new GenericBuyInfo(typeof(GraveDust), 3, 999, 0xF8F, 0));
+                Add(new GenericBuyInfo(typeof(BatWing), 3,      10, 0xF78, 0));
+                Add(new GenericBuyInfo(typeof(DaemonBlood), 6,  10, 0xF7D, 0));
+                Add(new GenericBuyInfo(typeof(PigIron), 5,      10, 0xF8A, 0));
+                Add(new GenericBuyInfo(typeof(NoxCrystal), 6,   10, 0xF8E, 0));
+                Add(new GenericBuyInfo(typeof(GraveDust), 3,    10, 0xF8F, 0));
 
-                Type[] types = Loot.MageryScrollTypes;
+                /* Type[] types = Loot.MageryScrollTypes;
 
                 int circles = 3;
 
@@ -66,7 +66,7 @@ namespace Server.Mobiles
                         --itemID;
 
                     Add(new GenericBuyInfo(types[i], 12 + ((i / 8) * 10), 20, itemID, 0, true));
-                }
+                } */
             }
         }
 
