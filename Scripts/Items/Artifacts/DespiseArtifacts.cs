@@ -15,7 +15,7 @@ namespace Server.Items
             Attributes.RegenMana = 2;
             Attributes.Luck = 250;
             Attributes.SpellDamage = 20;
-            Attributes.LowerRegCost = 20;
+            //Attributes.LowerRegCost = 20;
         }
 
         public CompassionsEye(Serial serial) : base(serial)

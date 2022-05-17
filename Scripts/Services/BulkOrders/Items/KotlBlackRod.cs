@@ -15,7 +15,7 @@ namespace Server.Items
             Attributes.SpellChanneling = 1;
             Attributes.CastSpeed = 2;
             Attributes.LowerManaCost = 5;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
         }
 
         public override int InitMinHits => 255;
@@ -54,7 +54,7 @@ namespace Server.Items
             Attributes.SpellChanneling = 1;
             Attributes.CastSpeed = 2;
             Attributes.LowerManaCost = 5;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
         }
 
         public override int InitMinHits => 255;

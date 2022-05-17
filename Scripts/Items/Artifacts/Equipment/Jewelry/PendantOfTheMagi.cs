@@ -11,7 +11,7 @@ namespace Server.Items
             Attributes.RegenMana = 3;
             Attributes.SpellDamage = 5;
             Attributes.LowerManaCost = 10;
-            Attributes.LowerRegCost = 30;
+            //Attributes.LowerRegCost = 30;
         }
 
         public PendantOfTheMagi(Serial serial)

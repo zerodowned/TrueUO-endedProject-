@@ -24,7 +24,7 @@
             Attributes.RegenStam = 2;
             Attributes.RegenMana = 2;
             Attributes.LowerManaCost = 8;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
         }
 
         public LeviathanHideBracers(Serial serial)

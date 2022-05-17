@@ -13,7 +13,7 @@
             Attributes.CastSpeed = 1;
             Attributes.CastRecovery = 3;
             Attributes.SpellDamage = 10;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
         }
 
         public RingOfTheSoulbinder(Serial serial)

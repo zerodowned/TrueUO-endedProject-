@@ -75,7 +75,7 @@ namespace Server.Engines.VendorSearching
                 new SearchCriterionEntry(AosAttribute.CastRecovery, 1075618, 1060412),
                 new SearchCriterionEntry(AosAttribute.CastSpeed, 1075617, 1060413),
                 new SearchCriterionEntry(AosAttribute.LowerManaCost, 1075621, 1060433),
-                new SearchCriterionEntry(AosAttribute.LowerRegCost, 1075625, 1060434),
+                //new SearchCriterionEntry(AosAttribute.LowerRegCost, 1075625, 1060434),
                 new SearchCriterionEntry(AosWeaponAttribute.MageWeapon, 1079759, 1060438),
                 new SearchCriterionEntry(AosArmorAttribute.MageArmor, 1079758),
                 new SearchCriterionEntry(AosAttribute.SpellChanneling, 1079766)

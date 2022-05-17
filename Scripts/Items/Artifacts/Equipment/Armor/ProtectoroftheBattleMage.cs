@@ -19,7 +19,7 @@ namespace Server.Items
             Hue = 1159;
             Attributes.LowerManaCost = 8;
             Attributes.RegenMana = 2;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
             Attributes.SpellDamage = 5;
             AbsorptionAttributes.CastingFocus = 3;
         }

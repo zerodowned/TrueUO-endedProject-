@@ -88,7 +88,7 @@ namespace Server.Items
             Attributes.BonusInt = 8;
             Attributes.SpellDamage = 15;
             Attributes.LowerManaCost = 10;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
 
             Slayer = Utility.RandomBool() ? SlayerName.Dinosaur : SlayerName.Myrmidex;
         }
@@ -403,7 +403,7 @@ namespace Server.Items
             Attributes.RegenMana = 2;
             Attributes.SpellDamage = 5;
             Attributes.LowerManaCost = 10;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
         }
 
         public HawkwindsRobe(Serial serial) : base(serial)
@@ -516,7 +516,7 @@ namespace Server.Items
             Attributes.BonusInt = 8;
             Attributes.SpellDamage = 15;
             Attributes.LowerManaCost = 10;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
         }
 
         public JuonarsGrimoire(Serial serial) : base(serial)
@@ -637,7 +637,7 @@ namespace Server.Items
             Hue = 1645;
             Attributes.Luck = 150;
             Attributes.LowerManaCost = 5;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
 
             switch (Utility.Random(5))
             {
@@ -681,7 +681,7 @@ namespace Server.Items
             Hue = 1645;
             Attributes.Luck = 150;
             Attributes.LowerManaCost = 5;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
 
             switch (Utility.Random(5))
             {

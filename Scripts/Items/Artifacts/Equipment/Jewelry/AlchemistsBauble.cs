@@ -9,7 +9,7 @@ namespace Server.Items
             Hue = 0x290;
             SkillBonuses.SetValues(0, SkillName.Magery, 10.0);
             Attributes.EnhancePotions = 30;
-            Attributes.LowerRegCost = 20;
+            //Attributes.LowerRegCost = 20;
             Resistances.Poison = 10;
         }
 

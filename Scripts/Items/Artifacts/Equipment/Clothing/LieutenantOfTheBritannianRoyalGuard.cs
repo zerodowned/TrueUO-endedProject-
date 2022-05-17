@@ -12,7 +12,7 @@ namespace Server.Items
             Hue = 0xe8;
             Attributes.BonusInt = 5;
             Attributes.RegenMana = 2;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
         }
 
         public LieutenantOfTheBritannianRoyalGuard(Serial serial)
@@ -49,7 +49,7 @@ namespace Server.Items
             Hue = 0xe8;
             Attributes.BonusInt = 5;
             Attributes.RegenMana = 2;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
         }
 
         public GargishLieutenantOfTheBritannianRoyalGuard(Serial serial)

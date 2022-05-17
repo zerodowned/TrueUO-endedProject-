@@ -8,7 +8,7 @@ namespace Server.Items
         {
             LootType = LootType.Blessed;
             Attributes.RegenMana = 1;
-            Attributes.LowerRegCost = 7;
+            //Attributes.LowerRegCost = 7;
         }
 
         public PhilosophersHat(Serial serial)

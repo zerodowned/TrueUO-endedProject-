@@ -23,13 +23,13 @@ namespace Server.Items
             Weight = 4;
 
             Attributes.BonusInt = 1;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
 
             SetAttributes.BonusInt = 6;
             SetAttributes.RegenMana = 2;
             SetAttributes.DefendChance = 10;
             SetAttributes.LowerManaCost = 5;
-            SetAttributes.LowerRegCost = 40;
+            //SetAttributes.LowerRegCost = 40;
 
             SetHue = 1165;
 

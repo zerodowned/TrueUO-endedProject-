@@ -21,7 +21,7 @@
             AbsorptionAttributes.CastingFocus = 2;
             Attributes.RegenMana = 1;
             Attributes.LowerManaCost = 6;
-            Attributes.LowerRegCost = 12;
+            //Attributes.LowerRegCost = 12;
             ArmorAttributes.MageArmor = 1;
         }
 

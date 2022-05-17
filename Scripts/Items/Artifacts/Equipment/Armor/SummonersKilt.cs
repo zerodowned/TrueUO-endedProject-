@@ -26,7 +26,7 @@ namespace Server.Items
             Attributes.SpellDamage = 5;
             SAAbsorptionAttributes.CastingFocus = 2;
             Attributes.LowerManaCost = 8;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
         }
 
         public SummonersKilt(Serial serial)

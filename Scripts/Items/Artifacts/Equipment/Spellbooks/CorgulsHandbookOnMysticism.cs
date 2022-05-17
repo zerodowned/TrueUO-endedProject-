@@ -11,7 +11,7 @@
             Attributes.RegenMana = 3;
             Attributes.DefendChance = 5;
             Attributes.LowerManaCost = 10;
-            Attributes.LowerRegCost = 20;
+            //Attributes.LowerRegCost = 20;
         }
 
         public CorgulsHandbookOnMysticism(Serial serial)

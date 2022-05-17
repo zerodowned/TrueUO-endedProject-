@@ -11,7 +11,7 @@ namespace Server.Items
             Hue = 1912;
             SkillBonuses.SetValues(0, SkillName.Focus, 10.0);
             Attributes.RegenMana = 1;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
             Attributes.SpellDamage = 5;
         }
 

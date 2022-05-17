@@ -19,7 +19,7 @@ namespace Server.Items
             AbsorptionAttributes.EaterKinetic = 2;
             Attributes.BonusStr = 4;
             Attributes.BonusHits = 4;
-            Attributes.LowerRegCost = 15;
+            //Attributes.LowerRegCost = 15;
 
             SetAttributes.BonusMana = 15;
             SetAttributes.LowerManaCost = 20;

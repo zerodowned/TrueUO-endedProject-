@@ -12,7 +12,7 @@ namespace Server.Items
             Attributes.SpellChanneling = 1;
             Attributes.RegenMana = 3;
             Attributes.CastSpeed = 1;
-            Attributes.LowerRegCost = 20;
+            //Attributes.LowerRegCost = 20;
         }
 
         public Boomstick(Serial serial)

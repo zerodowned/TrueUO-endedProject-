@@ -13,7 +13,7 @@ namespace Server.Items
             Hue = 0x481;
             SkillBonuses.SetValues(0, SkillName.Healing, 10.0);
             Attributes.BonusDex = 5;
-            Attributes.LowerRegCost = 30;
+            //Attributes.LowerRegCost = 30;
         }
 
         public StitchersMittens(Serial serial)

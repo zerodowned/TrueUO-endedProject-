@@ -1215,7 +1215,7 @@ namespace Server.Items
                         new NamedInfoCol(AosAttribute.BonusMana, ArmorStamManaLMCTable),
                         new NamedInfoCol(AosAttribute.BonusInt, DexIntTable),
                         new NamedInfoCol(AosAttribute.LowerManaCost, ArmorStamManaLMCTable),
-                        new NamedInfoCol(AosAttribute.LowerRegCost, LowerRegTable)
+                        //new NamedInfoCol(AosAttribute.LowerRegCost, LowerRegTable)
                     }
                 };
 
@@ -1270,7 +1270,7 @@ namespace Server.Items
                         new NamedInfoCol(AosAttribute.BonusInt, DexIntTable),
                         new NamedInfoCol(AosAttribute.LowerManaCost, ArmorStamManaLMCTable),
                         new NamedInfoCol(AosAttribute.RegenMana, ArmorRegenTable),
-                        new NamedInfoCol(AosAttribute.LowerRegCost, LowerRegTable)
+                       // new NamedInfoCol(AosAttribute.LowerRegCost, LowerRegTable)
                     },
                     new[]
                     {
@@ -1285,7 +1285,7 @@ namespace Server.Items
                         new NamedInfoCol(AosAttribute.BonusInt, DexIntTable),
                         new NamedInfoCol(AosAttribute.LowerManaCost, ArmorStamManaLMCTable),
                         new NamedInfoCol(AosAttribute.RegenMana, ArmorRegenTable),
-                        new NamedInfoCol(AosAttribute.LowerRegCost, LowerRegTable),
+                        //new NamedInfoCol(AosAttribute.LowerRegCost, LowerRegTable),
                         new NamedInfoCol(AosAttribute.CastSpeed, 1),
                         new NamedInfoCol(AosAttribute.CastRecovery, 4),
                         new NamedInfoCol(AosAttribute.SpellDamage, 18)

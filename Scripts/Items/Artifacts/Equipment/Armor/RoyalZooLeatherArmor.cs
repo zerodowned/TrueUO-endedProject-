@@ -11,7 +11,7 @@ namespace Server.Items
             Attributes.BonusMana = 3;
             Attributes.RegenStam = 3;
             Attributes.ReflectPhysical = 10;
-            Attributes.LowerRegCost = 15;
+            //Attributes.LowerRegCost = 15;
         }
 
         public RoyalZooLeatherLegs(Serial serial)
@@ -53,7 +53,7 @@ namespace Server.Items
             Attributes.BonusMana = 3;
             Attributes.RegenStam = 3;
             Attributes.ReflectPhysical = 10;
-            Attributes.LowerRegCost = 15;
+           // Attributes.LowerRegCost = 15;
         }
 
         public RoyalZooLeatherGloves(Serial serial)
@@ -95,7 +95,7 @@ namespace Server.Items
             Attributes.BonusMana = 3;
             Attributes.RegenStam = 3;
             Attributes.ReflectPhysical = 10;
-            Attributes.LowerRegCost = 15;
+            //Attributes.LowerRegCost = 15;
         }
 
         public RoyalZooLeatherGorget(Serial serial)
@@ -137,7 +137,7 @@ namespace Server.Items
             Attributes.BonusMana = 3;
             Attributes.RegenStam = 3;
             Attributes.ReflectPhysical = 10;
-            Attributes.LowerRegCost = 15;
+            //Attributes.LowerRegCost = 15;
         }
 
         public RoyalZooLeatherArms(Serial serial)
@@ -179,7 +179,7 @@ namespace Server.Items
             Attributes.BonusMana = 3;
             Attributes.RegenStam = 3;
             Attributes.ReflectPhysical = 10;
-            Attributes.LowerRegCost = 15;
+            //Attributes.LowerRegCost = 15;
         }
 
         public RoyalZooLeatherChest(Serial serial)
@@ -221,7 +221,7 @@ namespace Server.Items
             Attributes.BonusMana = 3;
             Attributes.RegenStam = 3;
             Attributes.ReflectPhysical = 10;
-            Attributes.LowerRegCost = 15;
+            //Attributes.LowerRegCost = 15;
         }
 
         public RoyalZooLeatherFemaleChest(Serial serial)

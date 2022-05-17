@@ -10,7 +10,7 @@ namespace Server.Items
             SkillBonuses.SetValues(0, SkillName.Necromancy, 5.0);
             SkillBonuses.SetValues(1, SkillName.SpiritSpeak, 5.0);
             Attributes.LowerManaCost = 5;
-            Attributes.LowerRegCost = 8;
+            //Attributes.LowerRegCost = 8;
             Attributes.IncreasedKarmaLoss = 5;
         }
 

@@ -7,7 +7,7 @@ namespace Server.Items
         public NecromanticGlasses()
         {
             Attributes.LowerManaCost = 15;
-            Attributes.LowerRegCost = 30;
+            //Attributes.LowerRegCost = 30;
             Hue = 0x22D;
         }
 

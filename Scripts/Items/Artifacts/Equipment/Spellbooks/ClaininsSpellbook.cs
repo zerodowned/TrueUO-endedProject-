@@ -11,7 +11,7 @@ namespace Server.Items
             Attributes.SpellChanneling = 1;
             Attributes.RegenMana = 3;
             Attributes.Luck = 80;
-            Attributes.LowerRegCost = 15;
+            //Attributes.LowerRegCost = 15;
         }
 
         public ClaininsSpellbook(Serial serial)

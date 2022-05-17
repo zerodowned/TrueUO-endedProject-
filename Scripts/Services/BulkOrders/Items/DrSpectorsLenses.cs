@@ -12,7 +12,7 @@ namespace Server.Items
             Attributes.RegenMana = 4;
             Attributes.SpellDamage = 12;
             Attributes.LowerManaCost = 8;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
         }
 
         public override int BasePhysicalResistance => 5;

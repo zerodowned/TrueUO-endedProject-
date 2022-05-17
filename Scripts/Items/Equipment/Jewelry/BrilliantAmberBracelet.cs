@@ -13,8 +13,8 @@ namespace Server.Items
             switch (Utility.Random(4))
             {
                 case 0:
-                    Attributes.LowerRegCost += 10;
-                    break;
+                /*     Attributes.LowerRegCost += 10;
+                    break; */
                 case 1:
                     Attributes.CastSpeed += 1;
                     break;

@@ -37,7 +37,7 @@ namespace Server.Items
                 Attributes.RegenMana = 2;
                 Attributes.SpellDamage = 5;
                 Attributes.LowerManaCost = 10;
-                Attributes.LowerRegCost = 10;
+                //Attributes.LowerRegCost = 10;
                 MaxHitPoints = 255;
                 HitPoints = 255;
 

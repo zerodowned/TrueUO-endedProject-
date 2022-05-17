@@ -13,7 +13,7 @@ namespace Server.Items
             Attributes.DefendChance = 10;
             Resistances.Physical = 15;
             Attributes.LowerManaCost = 10;
-            Attributes.LowerRegCost = 20;
+            //Attributes.LowerRegCost = 20;
         }
 
         public Lavaliere(Serial serial)

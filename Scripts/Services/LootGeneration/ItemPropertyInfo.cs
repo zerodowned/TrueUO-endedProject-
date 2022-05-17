@@ -320,8 +320,8 @@ namespace Server.Items
             Register(17, new ItemPropertyInfo(AosAttribute.LowerManaCost, 1075621, 110, typeof(RelicFragment), typeof(Tourmaline), typeof(EssenceOrder), 1, 1, 8, 1111996,
                 new PropInfo(1, 0, 5), new PropInfo(2, 0, 5), new PropInfo(3, 8, 8, new[] { 10 }), new PropInfo(4, 0, 5), new PropInfo(5, 8, 8, new[] { 10 }), new PropInfo(6, 8, 8, new[] { 10 })));
 
-            Register(18, new ItemPropertyInfo(AosAttribute.LowerRegCost, 1075625, 100, typeof(MagicalResidue), typeof(Amber), typeof(FaeryDust), 1, 1, 20, 1111997,
-                new PropInfo(3, 20, 20, new[] { 25 }), new PropInfo(5, 20, 20, new[] { 25 }), new PropInfo(6, 20, 20, new[] { 25 })));
+            /* Register(18, new ItemPropertyInfo(AosAttribute.LowerRegCost, 1075625, 100, typeof(MagicalResidue), typeof(Amber), typeof(FaeryDust), 1, 1, 20, 1111997,
+                new PropInfo(3, 20, 20, new[] { 25 }), new PropInfo(5, 20, 20, new[] { 25 }), new PropInfo(6, 20, 20, new[] { 25 }))); */
 
             Register(19, new ItemPropertyInfo(AosAttribute.ReflectPhysical, 1075626, 100, typeof(MagicalResidue), typeof(Citrine), typeof(ReflectiveWolfEye), 1, 1, 15, 1112006,
                 new PropInfo(1, 0, 15), new PropInfo(2, 0, 15), new PropInfo(3, 15, 15, new[] { 20 }), new PropInfo(4, 15, 15, new[] { 20 }), new PropInfo(5, 15, 15, new[] { 20 })));

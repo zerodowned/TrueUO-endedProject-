@@ -33,7 +33,7 @@ namespace Server.Items
 
             switch (Utility.Random(3))
             {
-                case 0: Attributes.LowerRegCost = 10; break;
+                case 0: //Attributes.LowerRegCost = 10; break;
                 case 1: Attributes.WeaponDamage = 15; break;
                 case 2: Attributes.SpellDamage = 5; break;
             }

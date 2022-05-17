@@ -14,7 +14,8 @@ namespace Server.Items
 
             if (Utility.Random(100) < 50)
             {
-                switch (Utility.Random(3))
+                //switch (Utility.Random(3))
+                switch (Utility.Random(2))
                 {
                     case 0:
                         Attributes.CastSpeed += 1;
@@ -22,9 +23,9 @@ namespace Server.Items
                     case 1:
                         Attributes.CastRecovery += 2;
                         break;
-                    case 2:
+                    /* case 2:
                         Attributes.LowerRegCost += 10;
-                        break;
+                        break; */
                 }
             }
         }

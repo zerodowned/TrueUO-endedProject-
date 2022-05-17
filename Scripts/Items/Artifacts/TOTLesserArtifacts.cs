@@ -352,7 +352,7 @@ namespace Server.Items
             Attributes.RegenHits = 2;
             Attributes.NightSight = 1;
             Attributes.LowerManaCost = 5;
-            Attributes.LowerRegCost = 18;
+            //Attributes.LowerRegCost = 18;
         }
 
         public GlovesOfTheSun(Serial serial)

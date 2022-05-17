@@ -20,7 +20,7 @@ namespace Server.Items
         public MantleOfTheFallen()
         {
             Hue = 1512;
-            Attributes.LowerRegCost = 25;
+            //Attributes.LowerRegCost = 25;
             Attributes.BonusInt = 8;
             Attributes.BonusMana = 8;
             Attributes.RegenMana = 1;

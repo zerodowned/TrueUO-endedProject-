@@ -370,7 +370,7 @@ namespace Server.Mobiles.MannequinProperty
         public override int LabelNumber => 1075625;  // Lower Reagent Cost
         public override int Description => 1115235;  // This property increases the chance to not consume reagents or tithing points when casting spells.  If the cumulative amount of this property is equal or above 100% then there is no reagents or tithing points cost to casting spells.  This property is most commonly found on armor and accessories.
         public override AosAttribute Attribute => AosAttribute.LowerRegCost;
-        public override int Cap => 100;
+        public override int Cap => 0; //100;
         public override int Hue => 0x1FF;
         public override int SpriteW => 90;
         public override int SpriteH => 60;

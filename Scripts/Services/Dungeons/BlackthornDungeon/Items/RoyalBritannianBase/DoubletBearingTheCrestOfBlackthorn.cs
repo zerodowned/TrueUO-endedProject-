@@ -10,7 +10,7 @@ namespace Server.Items
             ReforgedSuffix = ReforgedSuffix.Blackthorn;
             Attributes.BonusInt = 5;
             Attributes.RegenMana = 2;
-            Attributes.LowerRegCost = 10;
+            //Attributes.LowerRegCost = 10;
             StrRequirement = 10;
             Hue = 0xe8;
         }
