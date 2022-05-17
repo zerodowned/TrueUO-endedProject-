@@ -3899,9 +3899,9 @@ namespace Server.Mobiles
                 return TeachResult.Failure;
             }
 
-            if (baseToSet > theirSkill.CapFixedPoint)
+            if (baseToSet > 300) //theirSkill.CapFixedPoint)
             {
-                baseToSet = theirSkill.CapFixedPoint;
+                baseToSet = 300; //theirSkill.CapFixedPoint;
             }
 
             pointsToLearn = baseToSet - theirSkill.BaseFixedPoint;
@@ -3984,7 +3984,7 @@ namespace Server.Mobiles
                 }
 
                 /* Sanity check */
-                if (baseToSet > theirSkill.CapFixedPoint || m.Skills.Total - theirSkill.BaseFixedPoint + baseToSet > m.Skills.Cap)
+                if (baseToSet > 300 /* theirSkill.CapFixedPoint */ || m.Skills.Total - theirSkill.BaseFixedPoint + baseToSet > m.Skills.Cap)
                 {
                     // Full refund
                     m.Backpack.TryDropItem(m, new Gold(maxPointsToLearn), false);
@@ -4271,7 +4271,8 @@ namespace Server.Mobiles
                     Skill skill = ourSkills[i];
                     Skill theirSkill = theirSkills[i];
 
-                    if (skill != null && theirSkill != null && skill.Base >= 60.0 && CheckTeach(skill.SkillName, from))
+                    //if (skill != null && theirSkill != null && skill.Base >= 60.0 && CheckTeach(skill.SkillName, from))
+                    if (skill != null && theirSkill != null && skill.Base >= 30.0 && CheckTeach(skill.SkillName, from))
                     {
                         int toTeach = skill.BaseFixedPoint / 3;
 
@@ -4743,7 +4744,7 @@ namespace Server.Mobiles
 
             if (Skills[name].Base > Skills[name].Cap)
             {
-                SkillsCap += Skills[name].BaseFixedPoint - Skills[name].CapFixedPoint;
+                SkillsCap += Skills[name].BaseFixedPoint - 300 /* Skills[name].CapFixedPoint */;
 
                 Skills[name].Cap = Skills[name].Base;
             }
@@ -4776,7 +4777,7 @@ namespace Server.Mobiles
 
             if (Skills[name].Base > Skills[name].Cap)
             {
-                SkillsCap += Skills[name].BaseFixedPoint - Skills[name].CapFixedPoint;
+                SkillsCap += Skills[name].BaseFixedPoint - 300; //Skills[name].CapFixedPoint;
 
                 Skills[name].Cap = Skills[name].Base;
             }
